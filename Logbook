@@ -76,4 +76,29 @@ Librosa: feature extraction etc
 Pydub: load, manipulate file formates
 Pyaudio: realtime input and output
 
+How much variance is there in the environmental noise samples,
+Use clustering and methods to analyse how similar all the files are for the recorded environmental noise. 
+
+
+
+Exporting audio into 10 second clips
+3 hours of recording = 1000 10 second clips
+Segmentised PackingShed.
+
+
+Selecting window for spectrum to use: https://avisoft.com/tutorials/selecting-appropriate-spectrogram-parameters/
+using blackmann, medium bandwidth, 
+
+Creating excel document with segments from environmnetal noise and adding tags
+
+Sound Intensity Levels in the files? 
+
+How to get noise into ToyADMOS2 Dataset? 
+
+- stat.csv file?
+- get rms and 	vol_adj for audio clips DONE
+-import using mixer in python?
+
+
+
 
