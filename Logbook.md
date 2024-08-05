@@ -102,12 +102,13 @@ use made split noise files and combine with two folders and stat csv file.
 Week 3: 
 
 
-**Mounting google drive using Zip folders** https://sharkovsky.github.io/2020/09/18/colab-io-bench.html
+**Mounting google drive using Zip folders** 
+https://sharkovsky.github.io/2020/09/18/colab-io-bench.html
+'''
 images = os.listdir('/content/gdrive/path/to/training/data')
 with open(path, 'r') as f:
   content = f.readlines()
 Google Drive can be a bit clumsy and unstable when dealing with folders containing many files. An efficient approach to uploading large datasets to Drive is to upload a zipped folder, and unzip it directly on the Drive. Sometimes, reading the files would fail with an OSError exception or a timeout. I found that listing the directories containing the training data and catching the exceptions in that moment with the following code can help in later on making the training process more stable.
-
 retry = True
 while retry:
   retry=False
@@ -116,7 +117,7 @@ while retry:
   except StopIteration:
     print('Exception Raised. Retry')
     retry = True
-
+'''
 
 
 
