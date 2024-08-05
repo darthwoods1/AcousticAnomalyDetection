@@ -120,5 +120,13 @@ while retry:
 '''
 
 
+- testing creating new env noise in dataset folder 
+r0_nz -- ID of environmental noise to be mixed. A single number is accepted: 1 to 4.
+
+
+- Make a flowcahrt of procedures
+
+
+
 
 
