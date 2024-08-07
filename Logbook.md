@@ -127,6 +127,15 @@ r0_nz -- ID of environmental noise to be mixed. A single number is accepted: 1 t
 - Make a flowcahrt of procedures
 
 
+Wednesday: 
+
+Found articles on noise mitigation with acoustic anomaly detection.
+writing up method and description
+
+- Look into https://neurodsp-tools.github.io/neurodsp/auto_tutorials/spectral/plot_SpectralVariance.html spectral variance as statistical mea
+-make some more recordings on site
+
+
 
 
 
