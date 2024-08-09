@@ -135,6 +135,7 @@ writing up method and description
 - Look into https://neurodsp-tools.github.io/neurodsp/auto_tutorials/spectral/plot_SpectralVariance.html spectral variance as statistical mea
 -make some more recordings on site
 
+![image](https://github.com/user-attachments/assets/b7f4d0ad-b0ba-4afb-a70a-d5a64848b73c)
 
 
 
