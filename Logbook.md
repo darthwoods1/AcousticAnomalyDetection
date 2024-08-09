@@ -1,4 +1,4 @@
-Week 1: 
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/11534c88-293a-4390-88f1-ee4624019850">Week 1: 
 Researching into Acoustics and different potential research areas 
 Week 2:
 Reviewing papers for literature review 
@@ -135,8 +135,31 @@ writing up method and description
 - Look into https://neurodsp-tools.github.io/neurodsp/auto_tutorials/spectral/plot_SpectralVariance.html spectral variance as statistical mea
 -make some more recordings on site
 
+
+
+DCASE 2021 "Unsupervised Anomalous Sounds Detection for Machine Coniditon Monitioring under Domain Shifted Conditions", follow up from DCASE 2020 Task 2, the task is an unsupervised problem, where only normal samples are give as trainnig data combined with a domain shfit problem where the *Acoustic characterisitcs of the training data and the test data is differnt".
+Problem solves issue of False Anomaly due to changes within the normal conditions. 
+An example of changes in normal operating conditon is chagnes in motor speed due to changes in production over time due to changes in searosnal demands., environmental noise conditions (SNR, sound characterisitics)
+
+KEYWORDS:
+Anomalous Sound Detection System Sound(Input)->Anomaly Score(Output)
+
+Audio datasets:
+10 second audio clips
+7 machine types (INCLUDING ToyCar and ToyTrain)
+Each section has source and target domain for calculating peformace metrics.
+ Different products may be in hte same section.
 ![image](https://github.com/user-attachments/assets/b7f4d0ad-b0ba-4afb-a70a-d5a64848b73c)
+Development dataset: 
+Sections 00,01,02
+ - source domain (1000 clips (normal) Training,
+200 clips (50% anomalous/normal split)
+- Target domain (3 clips(normal) Training and 200 clips (50% anomalous/normal split)
+Additional Training dataset
+Sections 03,04,05
+ - source domain (1000 clips (normal) Training)
+ - Target Domain (3 clips (normal) Training)
+Evaluation dataset
+Sections 03,04,05
 
-
-
-
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/c45d189d-5088-403f-86ab-42b7109246ce">
