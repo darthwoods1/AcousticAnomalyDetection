@@ -163,3 +163,14 @@ Evaluation dataset
 Sections 03,04,05
 
 <img width="689" alt="image" src="https://github.com/user-attachments/assets/c45d189d-5088-403f-86ab-42b7109246ce">
+
+
+
+
+
+plotted spectrogram and welch power density spectrums for segmetns fo interest in regions. 
+
+
+
+
+
