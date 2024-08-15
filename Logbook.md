@@ -171,6 +171,12 @@ Sections 03,04,05
 plotted spectrogram and welch power density spectrums for segmetns fo interest in regions. 
 
 
+https://repositorium.sdum.uminho.pt/bitstream/1822/73560/1/aiai2-dcase.pdf
+
+
+
+
+
 
 
 
