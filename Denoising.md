@@ -53,20 +53,36 @@ for n in range(num_blocks):
     # estimating input convolved with unknown response
     mono_denoised = stft.synthesis(gain_filt*stft.X)
 "
-
-
-
-
-
 6)https://github.com/santi-pdp/segan
 
 
 
+## "Frequency of Interest-based Noise Attenuation
+Method to Improve Anomaly Detection
+Performance"
+Park, et al. maximises computation while extracting driving events for anomaly detection by identifying Frequency of Interest (FoI) and using filters to remove characterisitics not in the FoI.
+On dataset improvement by 8.6%.
+
+They mention that using a deep learning model for noise reduction is not feasible due to increased computation required, not a solution for and edge node device.
+
+Noise reduction should only be on noise that interferes with the peformance of the anomaly detection.
+if noise mitigatoin increases the generalisation abilities by using addition of random noise in training, then the reconstruction error difference between normal and abnormal sounds will be reduced. 
+
+1st (21.5Hz) to 60th harmonic notch filters acting as a high pass filter, DC component also removed)
+
+Noise reduction on audio before event extraction using peak finding (stationary mic and oncoming cars?)
 
 
 
 
-  references:
+
+
+
+
+
+##references:
+
+
   https://github.com/BA-HanseML/NF_Prj_MIMII_Dataset/blob/master/feature_extraction_diagrams/A04_DenoiseDesign_mono/librosa_NNFilter_BlindDenoise.ipynb
 https://pyroomacoustics.readthedocs.io/en/pypi-release/pyroomacoustics.denoise.spectral_subtraction.html
 [1] Lim, J.S. and Oppenheim, A.V. (1978) All-Pole Modeling of Degraded Speech. IEEE Trans. Acoust. Speech, Signal Processing, ASSP, 26, 197–210.
