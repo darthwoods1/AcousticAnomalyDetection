@@ -175,6 +175,10 @@ https://repositorium.sdum.uminho.pt/bitstream/1822/73560/1/aiai2-dcase.pdf
 
 
 
+TUESDAY: 
+
+listening to Flour Mill
+
 
 
 
