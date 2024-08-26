@@ -46,3 +46,13 @@ MFEC does not use DCT,
   - 
 
 ReLU: rectified Linear Unit, ie half wave rectifier.rdf
+
+
+
+Statistics for variance and clustering within groups. 
+
+3 hours of environmental noise was recorded at a single location on site. This recording (wav 24bit 44.1 kHz) was split into 10 second segments, which are standard for training models and peforming testing/training on machine learning. Using these 10 second segments the environmental noise aresas were analysed individually to understand their characteristics. Statistical measures included finding the rms and vol adj for each clip. The variance between the rms values gave an indication about the variance of rms between all the 10 second clips in the single location, which was higher for areas that were identified to be having more impulsive and a less stationary noise makeup, which is noise that changes over time.
+
+Clustering analysis was peformed on the packing shed, which in analysis had variation in the noise, but common classes between all the 10 second segments could be identified. 
+
+
