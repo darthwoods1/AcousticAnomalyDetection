@@ -75,9 +75,13 @@ Spectral contrast - the difference between the peaks and valleys in an audio sig
 
 Clustering analysis was peformed on the packing shed, which in analysis had variation in the noise, but common classes between all the 10 second segments could be identified. 
 k-means with k=3 : Using PCA dimension reduction to plot, shows globular shape with some irregularities on the outside. 
+
+
 ![k-meansThesis(Wholedataset,k=3)](https://github.com/user-attachments/assets/7aa7212b-a8cc-4ba5-8391-90f18e32912f)
 
 Next revision for k-means using k = 10
+
+
 ![image](https://github.com/user-attachments/assets/614b49e8-8c8f-4839-8c01-dbac108f2707)
 ![image](https://github.com/user-attachments/assets/311ed58b-cd76-4a3b-912f-d4556e470c36)
 
@@ -87,6 +91,7 @@ Next revision for k-means using k = 10
 Rev 3 for k-means:
   -Using only labelled data
   - apply feature scaling
+
 ![image](https://github.com/user-attachments/assets/0f1ba939-fb86-4c88-ad8e-388efcb059f7)
 
 
