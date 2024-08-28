@@ -22,7 +22,35 @@ Recipe file:
 - Ability to mix and create datasets from the machine sounds and environmental noises.
 - Two machines: ToyCar and ToyTrain with Normal and anomalous sound.
 - Normal sounds have 150 recording patterns and anomolous have 300 recording patterns
-- 
+
+
+
+Audio datasets:
+10 second audio clips
+7 machine types (INCLUDING ToyCar and ToyTrain)
+Each section has source and target domain for calculating peformace metrics.
+ Different products may be in hte same section.
+![image](https://github.com/user-attachments/assets/b7f4d0ad-b0ba-4afb-a70a-d5a64848b73c)
+Development dataset: 
+Sections 00,01,02
+ - source domain (1000 clips (normal) Training,
+200 clips (50% anomalous/normal split)
+- Target domain (3 clips(normal) Training and 200 clips (50% anomalous/normal split)
+Additional Training dataset
+Sections 03,04,05
+ - source domain (1000 clips (normal) Training)
+ - Target Domain (3 clips (normal) Training)
+Evaluation dataset
+Sections 03,04,05
+
+
+
+
+## DATASET
+Using ToyCar and ToyTrain
+
+
+
 
 
 1) Install essential modules from requirements.txt
