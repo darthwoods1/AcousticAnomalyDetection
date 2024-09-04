@@ -50,11 +50,3 @@ Sections 03,04,05
 Using ToyCar and ToyTrain
 
 
-
-
-
-1) Install essential modules from requirements.txt
-2)  Make example dataset, compatible file-folder structure as DCASE 2021 challenge task 2 (1 hr)
-3) Run Baseline autoencoder DCASE 2020 task2 baseline
-4) 
-
