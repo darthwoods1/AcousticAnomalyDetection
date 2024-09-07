@@ -10,6 +10,7 @@ ie the area for AUC (False Positive Rate vs True Positive Rate) above 0.1 FPR, i
 
 Unsupervised learning, where there is no human intervention in the training is used. The data is not labelled and only training on normal samples is done. 
 
+
 Autoencoder networks uses deep learning to train a model to minimise the reconstruction error from a network. 
 The important layer is the bottleneck, where the dimensionality is reduced after an encoder, then a decoder reconstructs to match as close the original signal.
 As the network is trained on normal samples, the reconstruction error should be minimised through training and validation loss. 
@@ -96,7 +97,43 @@ Rev 3 for k-means:
 
 
 Rev 4:
-  -skip normalisation
+- NO normalisation, full data set,
+  8 Component PCA reduction 
+1)PCA component 1 vs PCA component 2 
+![image](https://github.com/user-attachments/assets/906cee63-57ef-43b4-8d31-ba316d26d5de)
+
+2) PCA component 2 vs PCA component 3 
+![image](https://github.com/user-attachments/assets/e11f9768-c810-4025-beb9-dd33b86c367f)
+
+3) PCA component 3 vs PCA component 4
+![image](https://github.com/user-attachments/assets/29f0e9e6-5eec-494c-82d6-47ae24bbec1c)
+
+
+
+ISSUE:
+Feature Extractor needed parameters to be defined, 
+channged:
+- n_mels = 128
+
+Multiple feature vectors represent on audio file, 
+4)
+![image](https://github.com/user-attachments/assets/0aab889e-f451-467e-8f55-46283ea0bdff)
+
+
+Settings for splitting audio:
+Fuction for splitting audio had target audio as 44100 not 16kz, outputting 3.1 seonds long segments. 
+
+
+
+t sne 
+![image](https://github.com/user-attachments/assets/7fba45c6-d288-4a82-b28b-ca3ef1eeeb23)
+
+
+from sklearn.manifold import TSNE
+tsne = TSNE(n_components=2, random_state=42)
+X_tsne = tsne.fit_transform(all_vectors)
+tsne.kl_divergence_
+
 
   
 
