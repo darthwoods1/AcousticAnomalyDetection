@@ -135,6 +135,37 @@ X_tsne = tsne.fit_transform(all_vectors)
 tsne.kl_divergence_
 
 
+
+Summary of "Trends in audio signal feature extraction methods" -Applied Acoustics
+Volume 158
+, 15 January 2020, 107020
+Intergration of signal processing and machine learning, peformance depends on features which training and testing is performed on.
+Domains: time, frequency, cepstral, wavelet, time-frequency.
+
+Humans can differentiate between types of sounds. Acoustic Scene Classification (ASC), Gerhard.
+Signal compact representation is a feature, needs to describe the signal completely and accurately.
+
+audio -> Preprocessing -> windowing -> feature extraction and selection -> classifier
+
+Problem with rectangular windowing -> Gibbs phenomenon -> smooth curves like hamming or hanning windows.
+Zero Crsosing rate, estimate of the fundamental frequncy 
+
+Amplitude based:
+- Amplitude descriptor:
+- Attack Dleay sustain release (ADSR)
+- 
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
